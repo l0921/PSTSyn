@@ -8,5 +8,6 @@ The datasets used in this study are available from the
 To download the data, open the release page and select the dataset
 archive under **Assets**.
 
-<img width="720" height="960" alt="model" src="https://github.com/user-attachments/assets/ecb66987-2fae-46d3-8060-cf8b0f3c17bb" />
+## Model architecture
 
+![PSTSyn model architecture](./PSTSyn_architecture.pdf)
