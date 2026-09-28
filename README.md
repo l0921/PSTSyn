@@ -8,4 +8,5 @@ The datasets used in this study are available from the
 To download the data, open the release page and select the dataset
 archive under **Assets**.
 
-<img width="2005" height="2097" alt="model" src="https://github.com/user-attachments/assets/09f24cb7-a702-42d3-9134-552019b05c8f" />
+<img width="720" height="960" alt="model" src="https://github.com/user-attachments/assets/ecb66987-2fae-46d3-8060-cf8b0f3c17bb" />
+
