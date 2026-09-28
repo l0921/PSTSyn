@@ -10,4 +10,4 @@ archive under **Assets**.
 
 ## Model architecture
 
-![PSTSyn model architecture](./pstsyn_architecture.pdf)
+![PSTSyn model architecture](./pstsyn_architecture.jpg)
