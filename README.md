@@ -38,7 +38,7 @@ The main dependencies include:
 - NetworkX
 - tqdm
 
-If `environment.yml` is provided, the environment can be created using:
+The `environment.yml` is provided, the environment can be created using:
 
 ```bash
 conda env create -f environment.yml
@@ -124,7 +124,7 @@ python train_PSTSyn.py
 By default, the training results are saved in:
 
 ```text
-data/result/new_labels_0_10_PSTSyn_slim_ordered_v8/
+data/result/new_labels_0_10_PSTSyn/
 ```
 
 The final five-fold evaluation summary is saved as:
