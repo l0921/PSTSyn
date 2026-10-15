@@ -54,7 +54,7 @@ The experiment can be reproduced by running the preprocessing and training scrip
 python build_ppi_flow_inputs.py
 ```
 
-This script constructs the STRING PPI network and maps DGIdb drug targets to proteins. The default STRING confidence threshold is 700. :chatgpt-content-reference{index="0"}
+This script constructs the STRING PPI network and maps DGIdb drug targets to proteins. The default STRING confidence threshold is 700. 
 
 ### 2. Build drug-specific PPI subgraphs
 
@@ -62,7 +62,7 @@ This script constructs the STRING PPI network and maps DGIdb drug targets to pro
 python build_ppi_subgraphs.py
 ```
 
-The default setting uses two-hop PPI neighborhoods with at most 192 nodes and 1,536 edges for each drug-specific subgraph. :chatgpt-content-reference{index="1"}
+The default setting uses two-hop PPI neighborhoods with at most 192 nodes and 1,536 edges for each drug-specific subgraph.
 
 ### 3. Build the Reactome pathway hypergraph
 
@@ -70,7 +70,7 @@ The default setting uses two-hop PPI neighborhoods with at most 192 nodes and 1,
 python build_reactome_pathway_hypergraph.py
 ```
 
-This script maps Reactome pathways to the STRING PPI network and constructs the pathway hypergraph used by PSTSyn. :chatgpt-content-reference{index="2"}
+This script maps Reactome pathways to the STRING PPI network and constructs the pathway hypergraph used by PSTSyn.
 
 ### 4. Generate the processed dataset
 
@@ -99,7 +99,7 @@ Dropout: 0.30
 Latent dimension: 128
 ```
 
-The complete training configuration is automatically saved during execution. :chatgpt-content-reference{index="3"}
+The complete training configuration is automatically saved during execution.
 
 ## Quick reproduction
 
@@ -133,4 +133,4 @@ The final five-fold evaluation summary is saved as:
 5Fold_Summary.csv
 ```
 
-The training script also saves the model checkpoints, fold splits, prediction results, and experimental configuration for reproducibility. :chatgpt-content-reference{index="4"}
+The training script also saves the model checkpoints, fold splits, prediction results, and experimental configuration for reproducibility.
